@@ -13,9 +13,17 @@ Index.html
         <div class="container">
             <h1>Bem-vindo à Nossa Página!</h1>
             <p>Descubra mais sobre nossos serviços incríveis.</p>
-            <a href="#cta" class="btn">Saiba Mais</a>
+            <button id="alertButton" class="btn">Clique aqui</button>
         </div>
     </header>
+    <script>
+        // Exibe uma mensagem ao clicar no botão
+        document.getElementById('alertButton').addEventListener('click', function () {
+            alert('Você clicou no botão!');
+        });
+    </script>
+           </header>
+           
     <section id="cta" class="cta-section">
         <div class="container">
             <h2>Junte-se a nós agora!</h2>
